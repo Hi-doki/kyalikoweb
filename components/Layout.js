@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 
 export default function Layout({children}) {
     return (
-        <div>
-            
+        <div className="bg-gradient-to-br from-blue-900">
+            <Navbar />
             {children}
             <Footer />
         </div>

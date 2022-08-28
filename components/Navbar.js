@@ -3,12 +3,12 @@ import Link from 'next/link'
 
 const Nav = styled.nav`
     height: 80px;
-    background: #000;
+    background: #00000050;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
 `;
 

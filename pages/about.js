@@ -6,7 +6,6 @@ const Container1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
 `
 
 const Container2 = styled.div`
@@ -14,7 +13,6 @@ const Container2 = styled.div`
   height: 40vh;
   justify-content: center;
   align-items: center;
-  background: #000;
 `
 
 const Heading = styled.div`
@@ -41,7 +39,7 @@ export default function Home() {
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <Container1>
-        <Heading>About</Heading>
+        <Heading className="transition ease-in-out rounded-md scale-75 p-5 hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">About</Heading>
       </Container1>
 
       <Container2>

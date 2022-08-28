@@ -13,7 +13,11 @@ const FooterSection = styled.div`
 const Footer = () => {
   return (
     <FooterSection>
-        <p>Kyaliko UwU</p>
+        <p>
+          Kyaliko.
+          
+          Work In Progress ATM
+        </p>
     </FooterSection>
   )
 }
