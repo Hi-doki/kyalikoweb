@@ -4,23 +4,23 @@ import styled from 'styled-components'
 const Container1 = styled.div`
   height: 40vh;
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   background: #000;
 `
 
 const Container2 = styled.div`
   display: flex;
   height: 40vh;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   background: #000;
 `
 
 const Heading = styled.div`
-  color: #fff;
-  font-size: 10rem;
-  font-weight: 700;
+color: #fff;
+font-size: 72px;
+font-weight: 700;
 `
 
 const Para = styled.div`
@@ -38,16 +38,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container1>
-        <Heading>About.</Heading>
+        <Heading>About</Heading>
       </Container1>
 
       <Container2>
         <Para>
-          Kyaliko = good
-
-          <br />
-          <br />
-
           Kyaliko is good dev team with cool website yay :3
         </Para>
       </Container2>
