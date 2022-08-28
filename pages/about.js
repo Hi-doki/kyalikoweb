@@ -35,7 +35,10 @@ export default function Home() {
       <Head>
         <title>Kyaliko Dev</title>
         <meta name="kyaliko uwu" content="nya" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Kyaliko" />
+        <meta property="og:image" content="/kyaweb.png" />
+        <meta property="og:description" content="A small dev team that is weird yhyh" />
+        <link rel="icon" href="/kyafav.ico" />
       </Head>
       <Container1>
         <Heading>About</Heading>
