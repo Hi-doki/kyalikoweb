@@ -21,8 +21,9 @@ export default function Home() {
       <Head>
         <title>Kyaliko Home</title>
         <meta name="kyaliko uwu" content="nya" />
+        <meta property="og:title" content="Kyaliko" />
         <meta property="og:image" content="/kyaweb.png" />
-        <meta property="og:description" content="UwU" />
+        <meta property="og:description" content="A small dev team that is weird yhyh" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <Hero>
