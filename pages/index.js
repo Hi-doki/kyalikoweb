@@ -21,7 +21,9 @@ export default function Home() {
       <Head>
         <title>Kyaliko Home</title>
         <meta name="kyaliko uwu" content="nya" />
-        <link rel="icon" href="/favicon.ico" />
+        <image content="/kyaweb.png" width="1920" height="1080" />
+        <desc>Kyaliko is a small dev team lol</desc>
+        <link rel="icon" href="/kyafav.ico" />
       </Head>
       <Hero>
         <Heading>WIP</Heading>
