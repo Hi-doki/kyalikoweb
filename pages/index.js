@@ -1,17 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styled from 'styled-components'
-
-const Hero = styled.div`
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Kyaliko Home</title>
         <meta name="kyaliko uwu" content="nya" />
@@ -21,7 +13,10 @@ export default function Home() {
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <div className="flex place-content-center text-center pt-48" >
-        <p className="transition ease-in-out rounded-md scale-75 p-5 font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-100 to-cyan-300">Kyaliko</span></p>
+        <p className="transition ease-in-out rounded-md scale-75 p-5  font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Welcome to <span className="">Kyaliko</span></p>
+        <div className="text-white bg-clip-text bg-gradient-to-br from-teal-100 to-cyan-300">
+          meow
+        </div>
       </div>
 
       <div className="flex place-content-center pt-36 pb-64">
