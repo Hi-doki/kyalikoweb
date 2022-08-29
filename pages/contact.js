@@ -44,7 +44,7 @@ export default function Home() {
 
       <div className="flex px-10 gap-5 py-5 place-content-center">
         <div className="flex transition ease-in-out duration-300 items-center place-content-center gap-2 p-2 py-2 rounded-md bg-opacity-0 bg-black hover:bg-opacity-50 hover:scale-110">
-          <img className="rounded-full" src="https://avatars.githubusercontent.com/u/106713009?v=4.png" alt="Kyatto PFP" width="50" height="50"/>
+          <img className="rounded-full" src="https://avatars.githubusercontent.com/u/106713009?v=4.png" alt="" width="50" height="50"/>
           <div>
             <p className="font-semibold">
               kyatto<span className="text-slate-500 text-sm">#2671</span>
