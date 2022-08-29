@@ -20,7 +20,11 @@ export default function Home() {
         <meta property="og:description" content="A small dev team that is weird yhyh" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
-      <Hero className="">
+      <div className="flex place-content-center text-center pt-48" >
+        <p className="transition ease-in-out rounded-md scale-75 p-5 font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-br from-teal-100 to-cyan-300">Kyaliko</span></p>
+      </div>
+
+      <div className="flex place-content-center pt-36 pb-64">
         <Link href="/about">
         <button className="
           transition ease-in-out
@@ -30,11 +34,10 @@ export default function Home() {
           active:scale-75 active:bg-gradient-to-r from-indigo-500 to-violet-500
           active:text-white active:w-50 active:font-semibold
           duration-300" href="/about">
-          Press Here
+          Click here
         </button>
         </Link>
-        
-      </Hero>
+      </div>
     </div>
   )
 }

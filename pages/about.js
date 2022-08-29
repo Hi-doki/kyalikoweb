@@ -1,13 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 
-const Container1 = styled.div`
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-
 const Container2 = styled.div`
   display: flex;
   height: 40vh;
@@ -15,21 +8,9 @@ const Container2 = styled.div`
   align-items: center;
 `
 
-const Heading = styled.div`
-color: #fff;
-font-size: 72px;
-font-weight: 700;
-`
-
-const Para = styled.div`
-  color: #fff;
-  font-size: 36px;
-  font-weight: 700;
-`
-
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>Kyaliko Dev</title>
         <meta name="kyaliko uwu" content="nya" />
@@ -38,15 +19,21 @@ export default function Home() {
         <meta property="og:description" content="A small dev team that is weird yhyh" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
-      <Container1>
-        <Heading className="transition ease-in-out rounded-md scale-75 p-5 hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">About</Heading>
-      </Container1>
+      <div className="flex place-content-center text-center p-48" >
+        <p className="transition ease-in-out rounded-md scale-75 w-80 p-5 font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">About</p>
+      </div>
 
-      <Container2>
-        <Para>
-          Kyaliko is good dev team with cool website yay :3
-        </Para>
-      </Container2>
-    </>
+      <div className="flex place-content-center p-10">
+        <div className=" text-center font-semibold text-2xl w-3/4 bg-black bg-opacity-50 rounded-md p-10 ">
+          Kyaliko is a small devteam owned by Kyatto and Astromal.
+          <div className="p-2">
+              Kyaliko develops free open-source programs for people to potentially Expand their coding knowledge.
+          </div>
+          <div>
+            <span className="text-blue-200">We also do it just for fun :3</span>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
