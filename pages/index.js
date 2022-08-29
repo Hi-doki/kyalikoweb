@@ -13,10 +13,7 @@ export default function Home() {
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <div className="flex place-content-center text-center pt-48" >
-        <p className="transition ease-in-out rounded-md scale-75 p-5  font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Welcome to <span className="">Kyaliko</span></p>
-        <div className="text-white bg-clip-text bg-gradient-to-br from-teal-100 to-cyan-300">
-          meow
-        </div>
+        <p className="transition ease-in-out rounded-md scale-75 p-5  font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Welcome to <span className="transition ease-in-out duration-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br from-teal-100 to-cyan-300">Kyaliko</span></p>
       </div>
 
       <div className="flex place-content-center pt-36 pb-64">
