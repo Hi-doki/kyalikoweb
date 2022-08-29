@@ -31,6 +31,9 @@ const Navbar = () => {
             <Link href="/contact" passHref>
                 <StyledLink>Contact</StyledLink>
             </Link>
+            <Link href="/projects" passHref>
+                <StyledLink>Projects</StyledLink>
+            </Link>
             <Link href="/404" passHref>
                 <StyledLink>404</StyledLink>
             </Link>
