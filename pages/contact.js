@@ -46,7 +46,7 @@ export default function Home() {
         <div className="flex transition ease-in-out duration-300 items-center place-content-center gap-2 p-2 py-2 rounded-md bg-opacity-0 bg-black hover:bg-opacity-50 hover:scale-110">
           <img className="rounded-full" src="https://avatars.githubusercontent.com/u/106713009?v=4" width="50"/>
           <div>
-            <p class="font-semibold">
+            <p className="font-semibold">
               kyatto<span className="text-slate-500 text-sm">#2671</span>
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="flex transition ease-in-out duration-300 text-semibold items-center place-content-center gap-2 p-2 py-2 rounded-md bg-opacity-0 bg-black hover:bg-opacity-50 hover:scale-110">
           <img className="rounded-full" src="https://cdn.discordapp.com/avatars/500392354105131009/a_fe4fce34e7b66c72492bce68c31418a2.gif" width="50"/>
           <div>
-            <p class="font-semibold">
+            <p className="font-semibold">
               astromal<span className="text-slate-500 text-sm">#0001</span>
             </p>
           </div>
