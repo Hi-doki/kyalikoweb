@@ -63,7 +63,7 @@ export default function Home() {
 
       <div className="flex place-content-center text-center p-10">
         <div className="bg-black bg-opacity-50 w-96 p-10 font-semibold rounded-md">
-          Kyaliko currently does not use a custom email. Please use Github issues or our Discord server for support.
+          Alternatively, you can email <a href="mailto:support@kyaliko.com">support@kyaliko.com</a>
         </div>
         
       </div>
