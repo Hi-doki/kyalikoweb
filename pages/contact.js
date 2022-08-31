@@ -17,7 +17,7 @@ export default function Home() {
       </div>
 
       <div className="flex gap-4 place-content-center">
-          <Link href="https://discord.com/invite/K4h2AbdhKw/">
+          <a href="https://discord.com/invite/K4h2AbdhKw/">
            <button className="
               transition ease-in-out
               p-2 delay-0 rounded-md w-60 
@@ -26,8 +26,8 @@ export default function Home() {
              active:scale-75 active:bg-gradient-to-r from-indigo-500 to-violet-500 active:text-white active:w-50 active:font-semibold duration-300">
              Discord
            </button>
-          </Link>
-          <Link href="https:/github.com/kyaliko">
+          </a>
+          <a href="https:/github.com/kyaliko">
             <button className="
               transition ease-in-out
               p-2 delay-0 rounded-md w-60
@@ -38,7 +38,7 @@ export default function Home() {
              duration-300">
              Github
            </button>
-         </Link>
+         </a>
         
       </div>
 
