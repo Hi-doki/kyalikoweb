@@ -27,7 +27,7 @@ export default function Home() {
              Discord
            </button>
           </a>
-          <a href="https:/github.com/kyaliko">
+          <a href="https://github.com/kyaliko">
             <button className="
               transition ease-in-out
               p-2 delay-0 rounded-md w-60
