@@ -27,10 +27,11 @@ export default function Home() {
         <div className=" text-center font-semibold text-xl sm:text-2xl w-3/4 bg-black bg-opacity-50 rounded-md p-10 ">
           Kyaliko is a small devteam owned by Kyatto and Astromal.
           <div className="p-2">
-              Kyaliko develops free open-source programs for people to potentially expand their programming knowledge.
+              Kyaliko creates open-source .NET applications for people to learn how to code easily, instead of looking at a 5 hour video/documentation.
+              We currently do not have any of our projects on GitHub however, we will realease them in the next 3 months.
           </div>
           <div>
-            <span className="text-blue-200">We also do it just for fun :3</span>
+            <span className="text-blue-200">For our GitHub page, <a href="/contact">click here </a>:3</span>
           </div>
         </div>
       </div>
