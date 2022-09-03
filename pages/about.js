@@ -31,7 +31,7 @@ export default function Home() {
               We currently do not have any of our projects on GitHub however, we will realease them in the next 3 months.
           </div>
           <div>
-            <span className="text-blue-200">For our GitHub page, <a href="/contact">click here </a>:3</span>
+            <span className="text-blue-200">For our GitHub page, <Link href="/contact">click here </Link>:3</span>
           </div>
         </div>
       </div>
