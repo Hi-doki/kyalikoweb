@@ -5,8 +5,8 @@ const projects = () => {
   return (
     <div>
         <Head>
-          <title>Kyaliko Dev</title>
-          <meta name="Projects - Kyaliko" content="nya" />
+          <title>Projects - Kyaliko</title>
+          <meta name="Kyaliko" content="nya" />
           <meta property="og:title" content="Our Projects - Kyaliko" />
           <meta property="og:image" content="/PFP1.png" />
           <meta property="og:description" content="This page contains our published projects" />

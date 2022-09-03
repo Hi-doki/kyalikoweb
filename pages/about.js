@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Kyaliko Dev</title>
-        <meta name="About - Kyaliko" content="nya" />
+        <title>About - Kyaliko</title>
+        <meta name="Kyaliko" content="nya" />
         <meta property="og:title" content="About Us - Kyaliko" />
         <meta property="og:image" content="/PFP1.png" />
         <meta property="og:description" content="well uhm, it tells you about us, just read the title :moyai:" />
