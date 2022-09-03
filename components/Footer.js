@@ -12,7 +12,7 @@ const FooterSection = styled.div`
 
 const Footer = () => {
   return (
-    <FooterSection>
+    <FooterSection className="translate-y-full">
         <p>
           Kyaliko.
           
