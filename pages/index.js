@@ -6,10 +6,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Kyaliko Home</title>
-        <meta name="kyaliko uwu" content="nya" />
-        <meta property="og:title" content="Kyaliko" />
-        <meta property="og:image" content="/kyaweb.png" />
-        <meta property="og:description" content="A small dev team that is weird yhyh" />
+        <meta name="Home - Kyaliko" content="nya" />
+        <meta property="og:title" content="Home - Kyaliko" />
+        <meta property="og:image" content="/PFP1.png" />
+        <meta property="og:description" content="Home page for a random dev team lol" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <div className="flex place-content-center text-center pt-48" >

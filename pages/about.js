@@ -2,22 +2,15 @@ import Head from 'next/head'
 import styled from 'styled-components'
 import Link from 'next/link'
 
-const Container2 = styled.div`
-  display: flex;
-  height: 40vh;
-  justify-content: center;
-  align-items: center;
-`
-
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Kyaliko Dev</title>
-        <meta name="kyaliko uwu" content="nya" />
-        <meta property="og:title" content="Kyaliko" />
-        <meta property="og:image" content="/kyaweb.png" />
-        <meta property="og:description" content="A small dev team that is weird yhyh" />
+        <meta name="About - Kyaliko" content="nya" />
+        <meta property="og:title" content="About Us - Kyaliko" />
+        <meta property="og:image" content="/PFP1.png" />
+        <meta property="og:description" content="well uhm, it tells you about us, just read the title :moyai:" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <div className="flex place-content-center text-center py-10 sm:p-48" >

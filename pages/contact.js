@@ -6,10 +6,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Kyaliko Dev</title>
-        <meta name="kyaliko uwu" content="nya" />
-        <meta property="og:title" content="Kyaliko" />
-        <meta property="og:image" content="/kyaweb.png" />
-        <meta property="og:description" content="A small dev team that is weird yhyh" />
+        <meta name="Contact - Kyaliko" content="nya" />
+        <meta property="og:title" content="Contact Us - Kyaliko" />
+        <meta property="og:image" content="/PFP1.png" />
+        <meta property="og:description" content="This page contains information on how to contact us" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <div className="flex place-content-center text-center py-10 sm:p-48" >
