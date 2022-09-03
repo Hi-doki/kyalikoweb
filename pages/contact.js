@@ -12,11 +12,11 @@ export default function Home() {
         <meta property="og:description" content="A small dev team that is weird yhyh" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
-      <div className="flex place-content-center text-center p-48" >
-        <p className="transition ease-in-out rounded-md scale-75 p-5 font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Contact </p>
+      <div className="flex place-content-center text-center py-10 sm:p-48" >
+        <p className="transition ease-in-out rounded-md scale-75 p-5 font-bold text-5xl sm:text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Contact </p>
       </div>
 
-      <div className="flex gap-4 place-content-center">
+      <div className="grid grid-cols-1 gap-y-2 text-center sm:flex sm:gap-4 sm:place-content-center">
           <a href="https://discord.com/invite/K4h2AbdhKw/">
            <button className="
               transition ease-in-out
@@ -27,7 +27,7 @@ export default function Home() {
              Discord
            </button>
           </a>
-          <a href="https://github.com/kyaliko">
+          <a href="https://github.com/kyaliko/">
             <button className="
               transition ease-in-out
               p-2 delay-0 rounded-md w-60
@@ -42,7 +42,7 @@ export default function Home() {
         
       </div>
 
-      <div className="flex px-10 gap-5 py-5 place-content-center">
+      <div className="sm:flex px-10 gap-5 py-5 sm:place-content-center">
         <div className="flex transition ease-in-out duration-300 items-center place-content-center gap-2 p-2 py-2 rounded-md bg-opacity-0 bg-black hover:bg-opacity-50 hover:scale-110">
           <img className="rounded-full" src="https://avatars.githubusercontent.com/u/106713009?v=4.png" alt="" width="50" height="50"/>
           <div>

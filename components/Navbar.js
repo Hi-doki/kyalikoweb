@@ -1,30 +1,19 @@
 import styled from 'styled-components'
 import Link from 'next/link'
 
-const Nav = styled.nav`
-    height: 80px;
-    background: #00000050;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 500;
-`;
-
 const StyledLink = styled.a`
     padding 0rem 2rem
 `
 
 const Navbar = () => {
   return (
-    <Nav>
-        <div>
+    <div className="grid gap-4 sm:flex h-40 sm:h-20 bg-black bg-opacity-50 place-content-center text-center sm:p-0 p-5 sm:place-content-between items-center font-semibold">
+        <div className="text-center">
             <Link href="/" passHref>
                 <StyledLink>kyaliko</StyledLink>
             </Link>
         </div>
-        <div>
+        <div className="grid grid-cols-2 sm:flex gap-2">
             <Link href="/about" passHref>
                 <StyledLink>About</StyledLink>
             </Link>
@@ -38,7 +27,7 @@ const Navbar = () => {
                 <StyledLink>404</StyledLink>
             </Link>
         </div>
-    </Nav>
+    </div>
   )
 }
 
