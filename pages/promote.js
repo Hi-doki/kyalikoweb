@@ -48,11 +48,11 @@ const projects = () => {
               <p className="pt-10 lg:pl-10 pb-5 text-xl">KyalikoInstaller - Kanayatto</p>
               <div className="flex">
                 <p className="lg:pl-10 lg:pr-10 text-xs md:text-sm xl:text-lg">
-                    This installer is really bad and shouldn't be used with the pre-existing code. basically, change the code to make it better :3
+                    This installer is really bad and shouldnt be used with the pre-existing code. basically, change the code to make it better :3
                 </p>
               </div>
               <div className="flex place-content-center lg:place-content-end p-10 ">
-                <a href="https://github.com/kanayatto/FXS">
+                <a href="https://github.com/kyaliko/KyalikoInstaller">
                     <button className="transition ease-in-out duration-500 p-2 w-20 rounded-md bg-blue-600 hover:bg-blue-300">
                         GitHub
                     </button>
