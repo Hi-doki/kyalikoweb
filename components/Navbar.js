@@ -7,7 +7,7 @@ const StyledLink = styled.a`
 
 const Navbar = () => {
   return (
-    <div className="grid gap-4 sm:flex h-40 sm:h-20 bg-black bg-opacity-50 place-content-center text-center sm:p-0 p-5 sm:place-content-between items-center font-semibold">
+    <div className="grid gap-5 sm:flex h-40 sm:h-20 bg-black bg-opacity-50 place-content-center text-center sm:p-0 p-5 sm:place-content-between items-center font-semibold">
         <div className="text-center">
             <Link href="/" passHref>
                 <StyledLink>kyaliko</StyledLink>
@@ -22,6 +22,9 @@ const Navbar = () => {
             </Link>
             <Link href="/projects" passHref>
                 <StyledLink>Projects</StyledLink>
+            </Link>
+            <Link href="/promote" passHref>
+                <StyledLink>Promote</StyledLink>
             </Link>
         </div>
     </div>
