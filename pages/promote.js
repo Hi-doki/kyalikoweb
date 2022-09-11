@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const projects = () => {
   return (
-    <div>
+    <div className="selection:bg-gray-500 selection:bg-opacity-25 ">
         <Head>
           <title>Projects - Kyaliko</title>
           <meta name="Kyaliko" content="nya" />
@@ -18,17 +18,17 @@ const projects = () => {
         </div>
 
         <div className="flex place-content-center text-center lg:text-left p-10">
-          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md">
+          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-slate-700 overflow-y-scroll 2xl:overflow-clip">
             <img src="/FXS.png" className="lg:flex lg:rounded-md lg:h-auto lg:w-auto w-full" />
             <div className="">
               <p className="pt-10 lg:pl-10 pb-5 text-xl">FXS - Kanayatto</p>
               <div className="flex">
-                <p className="lg:pl-10 lg:pr-10 text-xs md:text-sm xl:text-lg">
+                <p className="lg:pl-10 lg:pr-10 text-xs xl:text-sm 2xl:text-[16px]">
                     This project has been dead since 2020 and will not be revived,
                     im keeping the repository though because i want it to still be here lol.
                 </p>
               </div>
-              <div className="flex place-content-center lg:place-content-end p-10 ">
+              <div className="flex place-content-center lg:place-content-end p-10 lg:pb-10 lg:pr-10 2xl:p-10">
                 <a href="https://github.com/kanayatto/FXS">
                     <button className="transition ease-in-out duration-500 p-2 w-20 rounded-md bg-blue-600 hover:bg-blue-300">
                         GitHub
@@ -42,16 +42,16 @@ const projects = () => {
 
 
         <div className="flex place-content-center text-center lg:text-left p-10">
-          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md">
+          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-slate-700 overflow-y-scroll 2xl:overflow-hidden">
             <img src="https://user-images.githubusercontent.com/71313658/161446669-ba25a0de-2547-4f0e-978c-605b1fea5197.png" className="lg:flex lg:rounded-md lg:h-auto lg:w-auto w-full" />
             <div className="">
               <p className="pt-10 lg:pl-10 pb-5 text-xl">KyalikoInstaller - Kanayatto</p>
               <div className="flex">
-                <p className="lg:pl-10 lg:pr-10 text-xs md:text-sm xl:text-lg">
+                <p className="lg:pl-10 lg:pr-10 text-xs xl:text-sm 2xl:text-[16px]">
                     This installer is really bad and shouldnt be used with the pre-existing code. basically, change the code to make it better :3
                 </p>
               </div>
-              <div className="flex place-content-center lg:place-content-end p-10 ">
+              <div className="flex place-content-center lg:place-content-end p-10 lg:pb-10 lg:pr-10 2xl:p-10">
                 <a href="https://github.com/kyaliko/KyalikoInstaller">
                     <button className="transition ease-in-out duration-500 p-2 w-20 rounded-md bg-blue-600 hover:bg-blue-300">
                         GitHub

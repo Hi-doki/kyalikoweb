@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <div className="selection:bg-gray-500 selection:bg-opacity-25 scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-slate-700 overflow-auto">
       <Head>
         <title>About - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />

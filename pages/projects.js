@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const projects = () => {
   return (
-    <div>
+    <div className="selection:bg-gray-500 selection:bg-opacity-25">
         <Head>
           <title>Projects - Kyaliko</title>
           <meta name="Kyaliko" content="nya" />

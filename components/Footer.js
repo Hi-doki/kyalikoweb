@@ -1,24 +1,14 @@
-import styled from 'styled-components'
-
-const FooterSection = styled.div`
-    background: #000;
-    color: #fff;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-`
+import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <FooterSection className="translate-y-full">
-        <p>
-          Kyaliko.
-          
-          Work In Progress ATM
-        </p>
-    </FooterSection>
+    <div className="flex bg-black h-[100px] translate-y-full font-medium place-content-center text-gray-300 items-center text-center selection:bg-slate-900">
+      <div className="">
+        <Link href="https://mc.kyaliko.com/">
+          Kyaliko Launcher
+        </Link>
+      </div>
+    </div>
   )
 }
 

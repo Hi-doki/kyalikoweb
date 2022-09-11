@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const astromal = () => {
   return (
-    <div>
+    <div className="selection:bg-gray-500 selection:bg-opacity-25">
         <div className="flex place-content-center text-center py-10 sm:p-48" >
             <p className="transition ease-in-out rounded-md scale-75 p-5 font-bold text-5xl sm:text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Astromal</p>
         </div>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <div className="selection:bg-gray-500 selection:bg-opacity-25">
       <Head>
         <title>Contact - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />
@@ -21,9 +21,11 @@ export default function Home() {
            <button className="
               transition ease-in-out
               p-2 delay-0 rounded-md w-60 
-             bg-indigo-500 hover:bg-cyan-200
-             hover:scale-110 hover:text-stone-800 hover:font-semibold
-             active:scale-75 active:bg-gradient-to-r from-indigo-500 to-violet-500 active:text-white active:w-50 active:font-semibold duration-300">
+              shadow-lg shadow-indigo-700
+            bg-indigo-500 hover:bg-cyan-200
+             hover:scale-110 hover:text-stone-800 hover:font-semibold hover:shadow-cyan-400
+             active:scale-75 active:bg-gradient-to-r from-indigo-500 to-violet-500 active:text-white 
+             active:w-50 active:font-semibold active:shadow-indigo-700 duration-300">
              Discord
            </button>
           </a>
@@ -31,11 +33,11 @@ export default function Home() {
             <button className="
               transition ease-in-out
               p-2 delay-0 rounded-md w-60
+              shadow-lg shadow-indigo-700
               bg-indigo-500 hover:bg-cyan-200
-              hover:scale-110 hover:text-stone-800 hover:font-semibold
-              active:scale-75 active:bg-gradient-to-r from-indigo-500 to-violet-500
-              active:text-white active:w-50 active:font-semibold
-             duration-300">
+              hover:scale-110 hover:text-stone-800 hover:font-semibold hover:shadow-cyan-400
+              active:scale-75 active:bg-gradient-to-r from-indigo-500 to-violet-500 active:text-white 
+              active:w-50 active:font-semibold active:shadow-indigo-700 duration-300">
              Github
            </button>
          </a>
