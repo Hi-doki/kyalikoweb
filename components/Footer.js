@@ -7,7 +7,7 @@ const Footer = () => {
         <Link href="https://mc.kyaliko.com/" className="">
           <a className="text-sm">Kyaliko Launcher</a>
         </Link>
-        <samp className="text-sm">© Kyaliko 2021-2022</samp>
+        <samp className="text-sm">© Kyaliko 2022</samp>
       </div>
     </div>
   )
