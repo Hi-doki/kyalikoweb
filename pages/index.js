@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Document from 'next/document';
 
 export default function Home() {
   return (
@@ -13,10 +14,10 @@ export default function Home() {
         <link rel="icon" href="/kyafav.ico" />
       </Head>
       <div className="flex place-content-center text-center pt-48" >
-        <p className="transition ease-in-out rounded-md scale-75 p-5  font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500">Welcome to <span className="transition ease-in-out duration-500 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-br from-teal-100 to-cyan-300">Kyaliko</span></p>
+        <p id="uwu" className="transition ease-in-out rounded-md scale-75 p-5   font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500"><span className="transition ease-in-out duration-500 hover:text-[#FFFFFF00] bg-clip-text bg-gradient-to-r from-teal-100 to-cyan-200">Welcome to </span><span className="transition ease-in-out duration-500 hover:text-[#FFFFFF00] bg-clip-text bg-gradient-to-r from-teal-100 to-cyan-300">Kyaliko</span></p>
       </div>
 
-      <div className="flex place-content-center pt-36 pb-48">
+      <div id="hehe" className="flex place-content-center pt-36 pb-48">
         <Link href="/about">
         <button className="
           transition ease-in-out
