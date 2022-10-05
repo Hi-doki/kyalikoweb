@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Document from 'next/document';
 
 export default function Home() {
   return (
