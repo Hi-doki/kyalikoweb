@@ -7,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Contact - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />
+        <meta name="description" content="This page contains information on how to contact us" />
         <meta property="og:title" content="Contact Us - Kyaliko" />
         <meta property="og:image" content="/PFP1.png" />
         <meta property="og:description" content="This page contains information on how to contact us" />

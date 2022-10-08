@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>About - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />
+        <meta name="description" content="well uhm, it tells you about us, just read the title :moyai:" />
         <meta property="og:title" content="About Us - Kyaliko" />
         <meta property="og:image" content="/PFP1.png" />
         <meta property="og:description" content="well uhm, it tells you about us, just read the title :moyai:" />
