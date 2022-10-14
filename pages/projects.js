@@ -1,9 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const projects = () => {
   return (
     <div className="selection:bg-gray-500 selection:bg-opacity-25">
+      <Navbar />
         <Head>
           <title>Projects - Kyaliko</title>
           <meta name="Kyaliko" content="nya" />
@@ -29,6 +32,7 @@ const projects = () => {
             </div>
           </div>
         </div>
+        <Footer />
     </div>
   )
 }

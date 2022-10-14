@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-  res.status(200).json({ name: 'I love men' })
+  res.status(200).json({ name: 'I love men', discord: 'https://discord.com/' })
 }

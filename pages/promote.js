@@ -1,9 +1,16 @@
 import React from 'react'
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
+const meow = () => {
+  prompt("meow");
+}
 
 const projects = () => {
   return (
-    <div className="selection:bg-gray-500 selection:bg-opacity-25 ">
+    <div onInput={meow} className="selection:bg-gray-500 selection:bg-opacity-25 ">
+      <Navbar />
         <Head>
           <title>Projects - Kyaliko</title>
           <meta name="Kyaliko" content="nya" />
@@ -19,7 +26,7 @@ const projects = () => {
         </div>
 
         <div className="flex place-content-center text-center lg:text-left p-10">
-          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-slate-700 overflow-y-scroll 2xl:overflow-clip">
+          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md overflow-y-scroll 2xl:overflow-clip">
             <img src="/FXS.png" className="lg:flex lg:rounded-md lg:h-auto lg:w-auto w-full" />
             <div className="">
               <p className="pt-10 lg:pl-10 pb-5 text-xl">FXS - Kanayatto</p>
@@ -43,7 +50,7 @@ const projects = () => {
 
 
         <div className="flex place-content-center text-center lg:text-left p-10">
-          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-slate-700 overflow-y-scroll 2xl:overflow-hidden">
+          <div className="transition ease-in-out duration-500 hover:scale-110 grid grid-cols-1 lg:flex bg-black bg-opacity-50 md:w-2/4 lg:h-64 font-semibold rounded-md overflow-y-scroll 2xl:overflow-hidden">
             <img src="https://user-images.githubusercontent.com/71313658/161446669-ba25a0de-2547-4f0e-978c-605b1fea5197.png" className="lg:flex lg:rounded-md lg:h-auto lg:w-auto w-full" />
             <div className="">
               <p className="pt-10 lg:pl-10 pb-5 text-xl">KyalikoInstaller - Kanayatto</p>
@@ -62,6 +69,7 @@ const projects = () => {
             </div>
           </div>
         </div>
+        <Footer />
     </div>
   )
 }

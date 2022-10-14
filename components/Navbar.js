@@ -7,7 +7,7 @@ const StyledLink = styled.a`
 
 const Navbar = () => {
   return (
-    <div className="grid  gap-5 sm:flex h-40 sm:h-20 bg-black bg-opacity-50 place-content-center text-center sm:p-0 p-5 sm:place-content-between items-center font-semibold selection:bg-gray-500 selection:bg-opacity-25">
+    <div className="grid gap-5 sm:flex h-40 sm:h-20 bg-black bg-opacity-50 place-content-center text-center sm:p-0 p-5 sm:place-content-between items-center font-semibold selection:bg-gray-500 selection:bg-opacity-25">
         <div className="text-center">
             <Link href="/" passHref>
                 <StyledLink>kyaliko</StyledLink>

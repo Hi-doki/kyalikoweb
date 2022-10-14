@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 import Link from 'next/link'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
-    <div className="selection:bg-gray-500 selection:bg-opacity-25 scrollbar-thin scrollbar-thumb-gray-800 scrollbar-track-slate-700 overflow-auto">
+    <div className="selection:bg-gray-500 selection:bg-opacity-25">
+      <Navbar />
       <Head>
         <title>About - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />
@@ -30,6 +33,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

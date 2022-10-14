@@ -3,12 +3,10 @@ import Navbar from "./Navbar";
 
 export default function Layout({children}) {
     return (
-        <div className="bg-black">
-            <div className="bg-[#191b33] h-full">
-                <div className="transition ease-in-out duration-500 bg-gradient-to-br from-slate-900 ">
-                    <Navbar />
+        <div className="bg-[#252525]">
+            <div className="bg-[#151520] h-full">
+                <div className="transition ease-in-out duration-500 ">
                     {children}
-                    <Footer />
                 </div>
             </div>
         </div>

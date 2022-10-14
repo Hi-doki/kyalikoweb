@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
     <div className="selection:bg-gray-500 selection:bg-opacity-25">
+      <Navbar />
       <Head>
         <title>Contact - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />
@@ -70,6 +73,7 @@ export default function Home() {
         </div>
         
       </div>
+      <Footer />
     </div>
   )
 }
