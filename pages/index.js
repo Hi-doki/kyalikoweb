@@ -10,10 +10,10 @@ export default function Home() {
       <Head>
         <title>Home - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />
-        <meta name="description" content="Home page for a random dev team lol" />
+        <meta name="description" content="Kyaliko is a dev team that creates .NET Applications for people that are learning to code :3" />
         <meta property="og:title" content="Home - Kyaliko" />
         <meta property="og:image" content="/PFP1.png" />
-        <meta property="og:description" content="Home page for a random dev team lol" />
+        <meta property="og:description" content="Kyaliko is a dev team that creates .NET Applications for people that are learning to code :3" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
 

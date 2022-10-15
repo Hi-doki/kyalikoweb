@@ -1,9 +1,18 @@
 import Link from "next/link"
 
+function uwu(){
+  prompt("pp")
+  return(
+    <div className="absolute">pp</div>
+  )
+ 
+ 
+}
+
 const Hero = () => {
   return (
     <div>
-        <div className="flex place-content-center text-center pt-48" >
+        <div onClick={uwu} className="flex place-content-center text-center pt-48" >
             <p id="uwu" className="transition ease-in-out rounded-md scale-75 p-5   font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500"><span className="transition ease-in-out duration-500 hover:text-[#FFFFFF00] bg-clip-text bg-gradient-to-r from-teal-100 to-cyan-200">Welcome to </span><span className="transition ease-in-out duration-500 hover:text-[#FFFFFF00] bg-clip-text bg-gradient-to-r from-teal-100 to-cyan-300">Kyaliko</span></p>
         </div>
 

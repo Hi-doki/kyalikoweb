@@ -26,7 +26,7 @@ export default function Home() {
           Kyaliko is a small devteam owned by Kyatto and Astromal.
           <div className="p-2">
               Kyaliko creates open-source .NET applications for people to learn how to code easily, instead of looking at a 5 hour video/documentation.
-              We currently do not have any of our projects on GitHub however, we will realease them in the next 3 months.
+              <br/><br/>(=•ω＜=)
           </div>
           <div>
             <span className="text-blue-200">For our GitHub page, <Link href="/contact">click here </Link>:3</span>

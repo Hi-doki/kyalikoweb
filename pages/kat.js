@@ -15,7 +15,7 @@ const kat = () => {
 
         <div className="flex place-content-center p-10 items-center">
             <div className="text-left items-center justify-center font-semibold text-xl hover:scale-110 sm:text-2xl w-auto x bg-black bg-opacity-50 rounded-md p-5 shadow-xl shadow-blue-300 transition ease-in-out duration-500">
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-2 px-5">
                     <div className="p-10">
                         <img onClick={ meow } src="https://avatars.githubusercontent.com/u/106713009?v=4.png" width="150px" className="transition duration-500 ease-in-out flex rounded-full place-content-center hover:scale-110 " />
                     </div>
