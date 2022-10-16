@@ -39,7 +39,7 @@ const kyatto = () => {
                         I create software in the .NET Framework coding language: C#
                     </span>
                     <span className="pt-0 p-5">
-                        I'm trying to make like 10 different projects all at once so my website looks terrible rn so yh
+                        Im trying to make like 10 different projects all at once so my website looks terrible rn so yh
                     </span>
                 </div>
             </div>
