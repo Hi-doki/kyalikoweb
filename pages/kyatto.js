@@ -7,6 +7,9 @@ const kyatto = () => {
   return (
     
     <div className="bg-white text-black selection:bg-[#00000025] selection:text-cyan-100 uwu h-screen">
+
+
+
         <Head>
         <title>Kyatto - Kyaliko</title>
         <meta name="Kyaliko" content="nya" />
@@ -16,6 +19,9 @@ const kyatto = () => {
         <meta property="og:description" content="Kyaliko is a dev team that creates .NET Applications for people that are learning to code :3" />
         <link rel="icon" href="/kyafav.ico" />
         </Head>
+
+
+        
         <div className="p-20 pt-40 bg-fixed backdrop-blur-lg static text-white h-screen">
 
             <div className="transition ease-in-out duration-300 absolute top-2 right-2 hover:scale-110 selection:bg-white/0">
@@ -31,7 +37,7 @@ const kyatto = () => {
                 Kyatto
             </div>
             <div className="text-2xl pt-5 font-semibold">
-                I created Kyaliko lol
+                <span>I created Kyaliko lol</span>
             </div>
             <div className="pt-5 rounded-md">
                 <div className="text-xl grid bg-slate-50/25 rounded-md w-fit font-semibold">
