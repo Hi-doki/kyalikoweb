@@ -12,10 +12,7 @@ function uwu(){
 const Hero = () => {
   return (
     <div>
-        <div onClick={uwu} className="flex place-content-center text-center pt-48" >
-            <p id="uwu" className="transition ease-in-out rounded-md scale-75 p-5 font-bold text-7xl hover:bg-black hover:bg-opacity-20 hover:scale-100 duration-500"><span className="transition ease-in-out duration-500 hover:text-[#FFFFFF00] bg-clip-text bg-gradient-to-r from-teal-100 to-cyan-200">Welcome to the remains of </span><span className="transition ease-in-out duration-500 hover:text-[#FFFFFF00] bg-clip-text bg-gradient-to-r from-teal-100 to-cyan-300">kyaliko.com</span></p>
-        </div>
-
+      
         <div className="flex place-content-center pt-36">
           <div className="p-2 bg-black/20 rounded-md">
             <span className="flex font-semibold text-center text-lg">
@@ -25,7 +22,7 @@ const Hero = () => {
           
         </div>
 
-        <div id="hehe" className="flex place-content-center pt-36 pb-48">
+        <div id="hehe" className="flex place-content-center  pt-36 pb-48">
             <Link href="https://new.kyaliko.com">
                 <button className="
                       transition ease-in-out
