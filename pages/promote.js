@@ -69,7 +69,6 @@ const projects = () => {
             </div>
           </div>
         </div>
-        <Footer />
     </div>
   )
 }

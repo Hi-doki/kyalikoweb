@@ -16,10 +16,7 @@ export default function Home() {
         <meta property="og:description" content="Kyaliko is a dev team that creates .NET Applications for people that are learning to code :3" />
         <link rel="icon" href="/kyafav.ico" />
       </Head>
-
-      <Navbar />
       <Hero />
-      <Footer />
     </div>
   )
 }
