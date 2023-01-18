@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex place-content-center pt-36">
           <div className="p-2 bg-black/20 rounded-md">
             <span className="flex font-semibold text-center text-lg">
-              We Have a new website! Press the button below to be redirected. <br/>This is the one of the last commits for this website. <br/>Moving the domain to old.kyaliko.com soon..
+              We Have a new website! Press the button below to be redirected. <br/>This is the last update for this website <br/>This website is now https://old.kyaliko.com/
             </span>
           </div>
           
@@ -31,7 +31,7 @@ const Hero = () => {
                      bg-indigo-500 hover:bg-cyan-200
                      hover:scale-110 hover:text-stone-800 hover:font-semibold hover:shadow-cyan-400
                      active:scale-75 active:bg-gradient-to-r from-indigo-500 to-violet-500 active:text-white 
-                     active:w-50 active:font-semibold active:shadow-indigo-700 duration-300" href="https://new.kyaliko.com/">
+                     active:w-50 active:font-semibold active:shadow-indigo-700 duration-300" href="https://kyaliko.com/">
                       Click here
                 </button>
             </Link>
